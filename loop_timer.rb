@@ -1,3 +1,9 @@
+5.times do |i|
+  system("clear")
+  puts("Ready...#{5 - i}")
+  sleep(1)
+end
+
 while(true) do
   print("\a")
   20.times do |i|
