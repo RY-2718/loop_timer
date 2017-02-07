@@ -1,3 +1,7 @@
+#! /bin/sh
+exec ruby -S -x "$0" "$@"
+#! ruby
+
 5.times do |i|
   system("clear")
   puts("Ready...#{5 - i}")
